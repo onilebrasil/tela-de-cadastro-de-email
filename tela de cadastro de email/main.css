@@ -1,0 +1,89 @@
+/*Reset Css*/
+
+*{margin:0;
+  padding: 0;
+}
+
+/*Definindo body e div principal*/
+
+body {
+   background-image:url(images/imagem-de-fundo.jpeg); 
+   display: flex;
+   justify-content: center;
+   color: black;
+   font-size: 18px;
+}
+
+.wrapper {
+ width: 800px;
+ height: 600px;   
+ margin: 10px;
+ background-color: white;
+ margin-top: 120px;
+ opacity: 0.90;
+ display: flex;
+ align-items: center;
+ border: 10px black;
+ border-radius: 5%;
+}
+
+/*Trabalhando primeira Div*/
+
+.send {
+ width: 50%;
+ height: 100%;   
+ margin-left: 5px;
+ justify-content: center;
+ align-items: center;
+}
+
+.send h1 {
+  margin-top: 10px; 
+  margin-left: 10px; 
+}
+
+.send p{
+ margin-top: 30px; 
+ margin-right: 2px;
+ font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/*trabalhando input do forms*/
+
+.login {
+ margin-top: 40px;   
+ align-items: center;
+ justify-content: center;
+}
+
+.login p {
+    font-size: 14px;
+}
+
+.login input {
+  margin-top: 20px;
+  width: 80%;
+  height: 50px;
+  border-radius: 5px;  
+  margin-left: 20px;
+}
+
+/*configurações da imagem da modelo*/
+
+.image {
+ background-image: url(images/modelo.jpeg);
+ height: 600px;
+ width:50%;
+ border-radius: 5%;
+}
+
+/*Configurações do botão*/
+.send button{
+  height: 35px;
+  width: 35%;
+  margin-top: 25px;
+  margin-left: 120px;
+  background: linear-gradient(rgb(83, 179, 211), rgba(234, 24, 253, 0.993));
+  font-size: 18px;
+  border-radius: 5%;
+}
